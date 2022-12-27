@@ -1,0 +1,4 @@
+# app.py
+def function1():
+    #print(“Hello from Function 1”)
+    print(File name : {__name__})

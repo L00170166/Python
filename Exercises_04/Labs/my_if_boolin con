@@ -1,0 +1,4 @@
+if (0<1) and (0<1):
+ print("Yup!")
+else:
+ print("Nope!")
