@@ -1,0 +1,14 @@
+'''
+Script:ipscanner.py
+By: CF
+Purpose: change to print scan.item
+Prerequisites:
+Tested: on Python v3.10.7 under Windows 11
+Revision History:
+Notes:
+Do not edit the values in this script, all fixed settings are maintained at .\settings\Budget.py
+This script has no error handling, by design.
+'''
+scan = {"192.168.3.10": "80", "192.168.3.11": "443", "192.168.3.55": "22"}
+for ipv4, port in scan.items():
+ print(f"Found a scan.item {ipv4} at {port}")
